@@ -14,7 +14,7 @@ body::-webkit-scrollbar{
     justify-content: center;
     padding: 40px;
     margin: 0px;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 #cards {
@@ -36,13 +36,13 @@ body::-webkit-scrollbar{
     margin: 10px;
 }
 
-/* .card:hover::before {
-    opacity: 1;
-} */
-
-.card:hover {
+.card:hover::before {
     opacity: 1;
 }
+
+/* .card:hover {
+    opacity: 1;
+} */
 
 .card::before {
     background: radial-gradient(
@@ -55,7 +55,7 @@ body::-webkit-scrollbar{
     height: 100%;
     left: 0px;
     top: 0px;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 500ms;
     border-radius: inherit;
     content: "";
