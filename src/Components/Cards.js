@@ -2,24 +2,6 @@ import React from 'react';
 import icon from '../Assets/icon.png';
 import './Cards.css';
 
-// const cardhover = document.querySelector(".card");
-
-// cardhover.addEventListener("mousemove", (e) => {
-//     const { x, y } = cardhover.getBoundingClientRect();
-//     cardhover.style.setProperty("--x", e.clientX - x);
-//     cardhover.style.setProperty("--y", e.clientY - y);
-//   });
-// document.getElementsById("cards").onmousemove = e => {
-//     for(const card of document.getElementsByClassName("card")) {
-//       const rect = card.getBoundingClientRect(),
-//             x = e.clientX - rect.left,
-//             y = e.clientY - rect.top;
-  
-//       card.style.setProperty("--mouse-x", `${x}px`);
-//       card.style.setProperty("--mouse-y", `${y}px`);
-//     };
-//   }
-
 const handleOnMouseMove = e => {
     const { currentTarget: target } = e;
 

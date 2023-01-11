@@ -40,6 +40,10 @@ body::-webkit-scrollbar{
     opacity: 1;
 }
 
+.card:hover {
+    opacity: 1;
+}
+
 .card::before {
     background: radial-gradient(
         600px circle at var(--mouse-x) var(--mouse-y), 
