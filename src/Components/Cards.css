@@ -36,9 +36,9 @@ body::-webkit-scrollbar{
     margin: 10px;
 }
 
-.card:hover::before {
+/* .card:hover::before {
     opacity: 1;
-}
+} */
 
 .card:hover {
     opacity: 1;

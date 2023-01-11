@@ -17,7 +17,6 @@ for(const card of document.querySelectorAll(".card")) {
     card.onmousemove = e => handleOnMouseMove(e);
 }
 
-
 function Cards() {
   return (
     <body>
